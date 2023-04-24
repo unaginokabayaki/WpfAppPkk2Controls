@@ -19,6 +19,17 @@
             </MenuItem>
             <MenuItem Header="編集" Padding="10,2,10,2" />
         </Menu>
+        <ToolBar Height="45">
+            <Button >
+                <Image Source="Images\Ninja.jpg" />
+            </Button>
+            <Button>
+                <Image Source="Images\PoliceOfficer.jpg" />
+            </Button>
+            <Separator />
+            <TextBox Width="50"/>
+        </ToolBar>
+        
         <Grid Margin="5">
             <StackPanel>
 
@@ -177,5 +188,11 @@
                 </StackPanel>
             </StackPanel>
         </Grid>
+        <StatusBar>
+            <ProgressBar Width="100" Height="18" Value="60" />
+            <TextBlock Text="処理中です" FontSize="12" />
+            <Separator />
+            <Label Content="50%" FontSize="12"/>
+        </StatusBar>
     </StackPanel>
 </Window>
