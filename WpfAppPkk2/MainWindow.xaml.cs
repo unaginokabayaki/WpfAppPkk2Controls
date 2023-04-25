@@ -17,9 +17,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 //using System.Windows.Shapes;
-using WpfAppPkk2.Objects;
+using WpfAppPkk2Controls.Objects;
 
-namespace WpfAppPkk2
+namespace WpfAppPkk2Controls
 {
     /// <summary>
     /// MainWindow.xaml の相互作用ロジック
@@ -323,6 +323,18 @@ namespace WpfAppPkk2
         private void OpenMenuItem_Click(object sender, RoutedEventArgs e)
         {
             Window1 dlg = new Window1();
+            dlg.ShowDialog();
+        }
+
+        private void MenuItemDock_Click(object sender, RoutedEventArgs e)
+        {
+            Window2 dlg = new Window2();
+            dlg.ShowDialog();
+        }
+
+        private void MenuItemCanvas_Click(object sender, RoutedEventArgs e)
+        {
+            Window3 dlg = new Window3();
             dlg.ShowDialog();
         }
     }

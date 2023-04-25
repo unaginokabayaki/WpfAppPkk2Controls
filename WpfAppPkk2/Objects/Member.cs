@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WpfAppPkk2.Objects
+namespace WpfAppPkk2Controls.Objects
 {
     [Obsolete("This is outedated.")]
     internal class Member

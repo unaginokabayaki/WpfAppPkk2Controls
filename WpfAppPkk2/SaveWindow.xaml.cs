@@ -12,9 +12,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using WpfAppPkk2.Objects;
+using WpfAppPkk2Controls.Objects;
 
-namespace WpfAppPkk2
+namespace WpfAppPkk2Controls
 {
     /// <summary>
     /// SaveWindow.xaml の相互作用ロジック

@@ -10,28 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WpfAppPkk2Controls
 {
     /// <summary>
-    /// Window1.xaml の相互作用ロジック
+    /// UserControl1.xaml の相互作用ロジック
     /// </summary>
-    public partial class Window1 : Window
+    public partial class UserControl1 : UserControl
     {
-        public Window1()
+        public UserControl1()
         {
             InitializeComponent();
-        }
-
-        private void SelectButton_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show($"{MyTabControl.SelectedIndex} is selected");
-        }
-
-        private void CloseButton_Click(object sender, RoutedEventArgs e)
-        {
-            Close();
         }
     }
 }

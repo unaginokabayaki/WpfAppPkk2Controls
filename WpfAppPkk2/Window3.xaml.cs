@@ -15,23 +15,13 @@ using System.Windows.Shapes;
 namespace WpfAppPkk2Controls
 {
     /// <summary>
-    /// Window1.xaml の相互作用ロジック
+    /// Window3.xaml の相互作用ロジック
     /// </summary>
-    public partial class Window1 : Window
+    public partial class Window3 : Window
     {
-        public Window1()
+        public Window3()
         {
             InitializeComponent();
-        }
-
-        private void SelectButton_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show($"{MyTabControl.SelectedIndex} is selected");
-        }
-
-        private void CloseButton_Click(object sender, RoutedEventArgs e)
-        {
-            Close();
         }
     }
 }
